@@ -1,0 +1,14 @@
+File,Rows,Columns,Used_in,Data_kind,Original_project_source,MD5
+data/observed_bc.csv,675,17,Fig05a;Fig06c;Table01;primary12X,observed cell means and local environmental predictors,Shanghai_BC_OPGD_SDO_20260929/03_results/prepared.rds: sample; BC_MEAN renamed BC,9bd10a6630312df1cfcacc35c5293f54
+data/observed_moran.csv,3,4,Fig05b,archived observed-response Moran statistic,outputs/three_year_updated/tables/response_moran.csv,a88c67e2a92ad410732acda57db3d654
+data/local_opgd.csv,36,15,"Fig06a,b",archived OPGD estimates and bootstrap intervals,Shanghai_BC_OPGD_SDO_20260929/03_results/opgd_factors.csv: family=X,4a45698a28ec0fe8c9bc349cd34bd3d6
+data/local_opgd_strata.csv,56,9,Fig06c,archived selected-stratum counts and means,Shanghai_BC_OPGD_SDO_20260929/03_results/opgd_strata.csv: POPD/DTS/TRL/NDVI,3dcab7d8bd7182ae326b00409be1de74
+data/fig07_donors.csv,384,5,Fig07a,donor values and neighbourhood moments,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig05_sdo_donor_process.csv,6c273666e5fabe790a0c4dbb75d61c9c
+data/fig07_scale_summary.csv,60,5,Fig07b,archived matched multiscale q summary,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig05_scale_summary.csv,932faa31eea3df029dbfb01c05be96af
+data/fig07_sdo_maps.csv,56030,6,Fig07c-f,archived per-cell signed SDO tails,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig05_sdo_maps.csv,8263054571583a591ff64a24c05d9ac6
+data/oof_predictions.csv,33750,9,"Fig08a-c;Fig09a,b;Table02",genuine frozen out-of-fold predictions,Shanghai_BC_OPGD_SDO_20260929/03_results/unified_svrk/oof.csv: main; ten required model/input combinations,9a4d51b023930588096a400e6a77b853
+data/fig09_paired_sdo_gains.csv,3,16,Fig09b,archived within-family paired bootstrap contrasts,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig07_paired_sdo_gains.csv,b3d9ac20a175a6a78ff590dd3022083d
+data/fig09_controlled_additions.csv,12,19,Fig09c,archived paired component contrasts,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig07_controlled_additions.csv,5d8fa9845832df550128c8ce9cdbb21c
+data/fig10_predictions.csv,84045,12,Fig10a-f,archived final predictions and support diagnostics,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig09_predictions_and_support.csv: required columns,b953dc9cff95fa549f5d14dfd0a76559
+data/fig10_colour_scales.csv,3,4,Fig10a-f,original full-range campaign colour scales,Shanghai_BC_OPGD_SDO_20260929/04_figures/source_data/fig09_year_colour_scales.csv,ead3a329f45f1b6755ada516987a406a
+data/shanghai_boundary.gpkg,1,geometry,Fig07c-f;Fig10a-f,municipal boundary geometry in EPSG:32651,Shanghai_BC_OPGD_SDO_20260929/03_results/geography.rds: boundary,2317ac5b0b52651b2c1dbd9f0160c5f7
